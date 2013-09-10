@@ -36,6 +36,6 @@
     </body>
 </html>
 <script type="text/javascript" src="scripts/set_circle.js"></script>
-<script type="text/javascript" src="scripts/load_modules.js"></script>
+<script type="text/javascript" src="scripts/skilltreemodule.js"></script>
 <script type="text/javascript" src="scripts/load_JSON_data.js"></script>
 <script type="text/javascript" src="scripts/user_init.js"></script>
