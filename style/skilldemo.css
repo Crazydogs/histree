@@ -1,0 +1,50 @@
+/*
+ *  skilltree module
+ *  calss name m-st
+*/
+
+
+/*class for skill*/
+.m-st{
+}
+.m-st-Node{
+	position:absolute;
+}
+.m-st-ProMask{
+	position:absolute;
+	width:50%;
+	left:50%;
+	top:50%;
+	background-color:#fff;
+} 
+.m-st-Pro{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:0;
+	height:0;
+	border-right:solid #f33;
+	border-bottom:solid #f33;
+}
+.m-st-Circle{
+	position:absolute;
+	background-color:#fff;
+	border-radius:100%;
+	text-align:center;
+	border:solid #f33;
+	bottom:0;
+}
+.m-st-Name{
+	color:#f33;
+	vertical-align:middle;
+}
+.m-st-ProNum{
+	color:#f33;
+	position:absolute;
+	bottom:2px;
+	right:-10px;
+}
+
+/*----------------animation--------------------*/
+
+

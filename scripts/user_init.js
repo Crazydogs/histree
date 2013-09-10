@@ -1,0 +1,87 @@
+set_circle_init.size_init().set_side().set_main();
+window.onresize =  function() {
+    set_circle_init.process("user");
+};
+skilltree.creat_tree($(".g-user-main"),
+{
+                        "max":{"x":7,"y":7},
+                "data":[
+                                {
+                                        "name":"xxx",
+                                        "position":{"x":1,"y":1},
+                                        "task":{
+                                                "task1":true,
+                                                "task2":false
+                                        },
+                                        "parents":[],
+                                        "children":["yyy"]
+                                },
+                                {
+                                        "name":"yyy",
+                                        "position":{"x":2,"y":3},
+                                        "task":{
+                                                "task1":true,
+                                                "task2":false
+                                        },
+                                        "parents":["xxx"],
+                                        "children":[]
+                                },
+                                {
+                                        "name":"zzz",
+                                        "position":{"x":2,"y":2},
+                                        "task":{
+                                                "task1":true,
+                                                "task2":false,
+                                                "task3":false
+                                        },
+                                        "parents":[],
+                                        "children":[]
+                                },
+				{
+                                        "name":"zzz",
+                                        "position":{"x":2,"y":4},
+                                        "task":{
+                                                "task1":true,
+                                                "task2":false,
+                                                "task3":false
+                                        },
+                                        "parents":[],
+                                        "children":[]
+                                },
+				{
+                                        "name":"zzz",
+                                        "position":{"x":2,"y":5},
+                                        "task":{
+                                                "task1":true,
+                                                "task2":false,
+                                                "task3":false
+                                        },
+                                        "parents":[],
+                                        "children":[]
+                                },
+				{
+                                        "name":"zzz",
+                                        "position":{"x":2,"y":6},
+                                        "task":{
+                                                "task1":true,
+                                                "task2":false,
+                                                "task3":false
+                                        },
+                                        "parents":[],
+                                        "children":[]
+                                },
+				{
+                                        "name":"zzz",
+                                        "position":{"x":2,"y":7},
+                                        "task":{
+                                                "task1":true,
+                                                "task2":false,
+                                                "task3":false
+                                        },
+                                        "parents":[],
+                                        "children":[]
+                                }
+
+                        ]
+})
+
