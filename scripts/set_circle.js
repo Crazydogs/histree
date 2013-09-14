@@ -33,7 +33,7 @@ var set_circle_init = {
         $target.css({"top" : (win_height / 2 - radius) + "px",
             "left" : (-(set_circle.user_center_distance + radius)) + "px",
             "border-width" : radius + "px",
-            "border-radius" : radius + "px"});
+            "border-radius" : "100%"});
     },
     set_hollowCircle : function($target, win_height, size, bw){
         $target.css({"height" : size - bw + "px",
@@ -72,5 +72,5 @@ var set_circle_init = {
 
 
 window.set_circle_init = set_circle_init;
-
+window.set_circle = set_circle;
 })(window);

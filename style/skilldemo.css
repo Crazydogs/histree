@@ -15,7 +15,7 @@
 	width:50%;
 	left:50%;
 	top:50%;
-	background-color:#fff;
+	background-color:#eeeeee;
 } 
 .m-st-Pro{
 	position:absolute;
@@ -23,23 +23,24 @@
 	top:50%;
 	width:0;
 	height:0;
-	border-right:solid #f33;
-	border-bottom:solid #f33;
+	border-right:solid #e50008;
+	border-bottom:solid #e50008;
 }
 .m-st-Circle{
 	position:absolute;
-	background-color:#fff;
+	background-color:#eeeeee;
 	border-radius:100%;
 	text-align:center;
-	border:solid #f33;
+	border:solid #e50008;
 	bottom:0;
 }
 .m-st-Name{
-	color:#f33;
+	color:#e50008;
 	vertical-align:middle;
+        font-weight: 700;
 }
 .m-st-ProNum{
-	color:#f33;
+	color:#e50008;
 	position:absolute;
 	bottom:2px;
 	right:-10px;

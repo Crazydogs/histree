@@ -1,5 +1,5 @@
 //-----------------------------------------------------
-//           技能树模块
+//           加载模块
 // 方法：
 // creat_tree( root, jsonData ) 在root中根据jsonData构造一棵树
 // get_data() 未完成，获取数据
@@ -117,6 +117,13 @@ tree_list_module = function (){
         var new_li = $("li").append(data + "");
     }
     return that;
+},
+
+article_module = function (){
+    var that = {};
+    that.creat_article = function (root, jsonData){
+        
+    }
 }
 
 window.skilltree = skilltree_module();

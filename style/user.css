@@ -4,6 +4,10 @@
 	font-family: "Microsoft YaHei";
 }
 
+body{
+	background-color: #eeeeee;
+}
+
 li{
 	list-style: none;
 }
